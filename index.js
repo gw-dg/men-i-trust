@@ -4,6 +4,7 @@ let count = 0
 
 function increment() {
     count += 1
+    localStorage.setItem("count",json.stringify(cou))
     countEl.textContent = count + " Times hearted ❤️"
 }
 
